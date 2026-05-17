@@ -1,0 +1,72 @@
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║    🎓 ALELUYAGARDEN - SITIO WEB COMPLETO 🎓             ║
+║         Educación con Principios Cristianos               ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝
+
+
+┌───────────────────────────────────────────────────────────┐
+│  PASO 1: DESCARGAR                                        │
+└───────────────────────────────────────────────────────────┘
+
+  Descarga la carpeta "public" completa a tu computadora
+  (o descarga el archivo aleluyagarden-website.zip)
+
+
+┌───────────────────────────────────────────────────────────┐
+│  PASO 2: ABRIR EL SITIO WEB                               │
+└───────────────────────────────────────────────────────────┘
+
+  1. Encuentra el archivo "index.html" dentro de la carpeta
+  
+  2. Haz DOBLE CLIC sobre "index.html"
+  
+  3. ¡El sitio se abrirá en tu navegador!
+
+
+┌───────────────────────────────────────────────────────────┐
+│  ARCHIVOS INCLUIDOS                                       │
+└───────────────────────────────────────────────────────────┘
+
+  📄 index.html ................ Página principal
+  🎨 styles.css ................ Diseño y colores
+  ⚙️  script.js ................. Funcionalidades
+  📖 README.md ................. Documentación completa
+  📝 INSTRUCCIONES.txt ......... Guía de personalización
+
+
+┌───────────────────────────────────────────────────────────┐
+│  CARACTERÍSTICAS DEL SITIO                                │
+└───────────────────────────────────────────────────────────┘
+
+  ✅ Responsive (funciona en móviles y tablets)
+  ✅ Navegación fluida entre secciones
+  ✅ Formulario de contacto
+  ✅ Botón flotante de llamada
+  ✅ Animaciones elegantes
+  ✅ Colores personalizados (#FF8C00, #5D3E7B, #4CAF50)
+
+
+┌───────────────────────────────────────────────────────────┐
+│  NO NECESITAS INSTALAR NADA                               │
+└───────────────────────────────────────────────────────────┘
+
+  ⚡ Solo abre index.html en cualquier navegador
+  ⚡ Funciona sin internet una vez descargado
+  ⚡ No requiere servidor web para verlo
+
+
+┌───────────────────────────────────────────────────────────┐
+│  ¿NECESITAS AYUDA?                                        │
+└───────────────────────────────────────────────────────────┘
+
+  Lee el archivo README.md para más información
+  Lee INSTRUCCIONES.txt para personalizar el sitio
+
+
+╔═══════════════════════════════════════════════════════════╗
+║                                                           ║
+║              ¡TODO LISTO PARA USAR! 🚀                   ║
+║                                                           ║
+╚═══════════════════════════════════════════════════════════╝

@@ -1,0 +1,113 @@
+═══════════════════════════════════════════════════════════════
+    ALELUYAGARDEN - SITIO WEB EDUCATIVO
+    Instrucciones de Uso
+═══════════════════════════════════════════════════════════════
+
+📦 CONTENIDO DE LA CARPETA PUBLIC:
+   ✓ index.html  - Página principal (HTML)
+   ✓ styles.css  - Estilos visuales (CSS)
+   ✓ script.js   - Funcionalidad (JavaScript)
+   ✓ README.md   - Documentación detallada
+
+═══════════════════════════════════════════════════════════════
+🚀 FORMA MÁS FÁCIL DE ABRIR EL SITIO:
+═══════════════════════════════════════════════════════════════
+
+1. Descargar la carpeta "public" completa a tu computadora
+
+2. Hacer doble clic en el archivo "index.html"
+
+3. ¡Listo! El sitio se abrirá en tu navegador
+
+═══════════════════════════════════════════════════════════════
+🎨 COLORES IMPLEMENTADOS:
+═══════════════════════════════════════════════════════════════
+
+• NARANJA (#FF8C00) - Botones principales como "Agenda tu cita"
+• MORADO (#5D3E7B)  - Header, footer, botones secundarios  
+• VERDE (#4CAF50)   - Botones de contacto flotantes
+• BLANCO (#FFFFFF)  - Fondo principal
+
+═══════════════════════════════════════════════════════════════
+✨ CARACTERÍSTICAS DEL SITIO:
+═══════════════════════════════════════════════════════════════
+
+✓ Diseño completamente responsive (se adapta a móviles)
+✓ Navegación suave entre secciones
+✓ Menú hamburguesa para dispositivos móviles
+✓ Formulario de contacto interactivo
+✓ Botón flotante de llamada (esquina inferior derecha)
+✓ Animaciones elegantes al hacer scroll
+✓ 6 secciones completas:
+  • Hero (Inicio)
+  • Programas (Maternal, Preescolar, Kínder)
+  • Sobre Nosotros
+  • Valores
+  • Contacto
+  • Footer
+
+═══════════════════════════════════════════════════════════════
+📝 PERSONALIZACIÓN RÁPIDA:
+═══════════════════════════════════════════════════════════════
+
+Para cambiar TELÉFONOS:
+→ Abrir index.html
+→ Buscar: (123) 456-7890
+→ Reemplazar con tu número
+
+Para cambiar EMAILS:
+→ Abrir index.html
+→ Buscar: info@aleluyagarden.com
+→ Reemplazar con tu email
+
+Para cambiar DIRECCIÓN:
+→ Abrir index.html
+→ Buscar: Calle Principal #123
+→ Reemplazar con tu dirección
+
+Para cambiar COLORES:
+→ Abrir styles.css
+→ Buscar el código de color (ej: #FF8C00)
+→ Reemplazar con tu color preferido
+
+═══════════════════════════════════════════════════════════════
+⚠️ NOTAS IMPORTANTES:
+═══════════════════════════════════════════════════════════════
+
+• El formulario NO envía emails automáticamente
+  (necesitas configurar un servidor backend para eso)
+
+• Los iconos de redes sociales en el footer tienen 
+  enlaces de ejemplo (#) - actualízalos con tus URLs reales
+
+• El sitio usa emojis como iconos - puedes reemplazarlos
+  con imágenes reales si lo deseas
+
+═══════════════════════════════════════════════════════════════
+📱 PROBADO EN:
+═══════════════════════════════════════════════════════════════
+
+✓ Google Chrome
+✓ Mozilla Firefox
+✓ Safari
+✓ Microsoft Edge
+✓ Dispositivos móviles (iOS/Android)
+
+═══════════════════════════════════════════════════════════════
+💡 CONSEJO:
+═══════════════════════════════════════════════════════════════
+
+Para editar el sitio, usa un editor de texto como:
+• Notepad++ (Windows)
+• Visual Studio Code (Windows/Mac/Linux)
+• Sublime Text (Windows/Mac/Linux)
+• o cualquier editor de texto
+
+No uses Microsoft Word o similares - pueden dañar el código.
+
+═══════════════════════════════════════════════════════════════
+
+¡El sitio está 100% listo para usar!
+Solo descarga la carpeta public y abre index.html
+
+═══════════════════════════════════════════════════════════════

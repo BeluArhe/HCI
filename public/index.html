@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleluyagarden - Educación con Principios Cristianos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <h1 onclick="scrollToSection('hero')">Aleluyagarden</h1>
+                </div>
+
+                <nav class="nav-desktop">
+                    <button onclick="scrollToSection('hero')" class="nav-link">Inicio</button>
+                    <button onclick="scrollToSection('programs')" class="nav-link">Programas</button>
+                    <button onclick="scrollToSection('about')" class="nav-link">Nosotros</button>
+                    <button onclick="scrollToSection('values')" class="nav-link">Valores</button>
+                    <button onclick="scrollToSection('contact')" class="nav-link">Contacto</button>
+                </nav>
+
+                <div class="phone-cta-desktop">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>(123) 456-7890</span>
+                </div>
+
+                <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+                    <span class="menu-icon">☰</span>
+                    <span class="close-icon">✕</span>
+                </button>
+            </div>
+
+            <nav id="mobileMenu" class="nav-mobile">
+                <button onclick="scrollToSection('hero')" class="mobile-nav-link">Inicio</button>
+                <button onclick="scrollToSection('programs')" class="mobile-nav-link">Programas</button>
+                <button onclick="scrollToSection('about')" class="mobile-nav-link">Nosotros</button>
+                <button onclick="scrollToSection('values')" class="mobile-nav-link">Valores</button>
+                <button onclick="scrollToSection('contact')" class="mobile-nav-link">Contacto</button>
+                <div class="phone-cta-mobile">
+                    <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                    </svg>
+                    <span>(123) 456-7890</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title animate-fade-in">Aleluyagarden</h1>
+                <p class="hero-subtitle animate-fade-in">Educación con principios cristianos</p>
+                <p class="hero-description animate-fade-in">Formamos niños felices, seguros y con valores sólidos para un futuro brillante</p>
+
+                <div class="hero-buttons animate-fade-in">
+                    <button onclick="scrollToSection('contact')" class="btn btn-primary">Agenda tu cita</button>
+                    <button onclick="scrollToSection('programs')" class="btn btn-secondary">Ver Programas</button>
+                </div>
+
+                <div class="hero-cards">
+                    <div class="hero-card animate-scale">
+                        <div class="hero-card-icon">📚</div>
+                        <h3>Educación Integral</h3>
+                        <p>Desarrollo académico, emocional y espiritual</p>
+                    </div>
+                    <div class="hero-card animate-scale">
+                        <div class="hero-card-icon">❤️</div>
+                        <h3>Amor y Cuidado</h3>
+                        <p>Ambiente seguro y acogedor para cada niño</p>
+                    </div>
+                    <div class="hero-card animate-scale">
+                        <div class="hero-card-icon">✨</div>
+                        <h3>Valores Cristianos</h3>
+                        <p>Formación basada en principios bíblicos</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Programs Section -->
+    <section id="programs" class="programs">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Programas</h2>
+                <p>Ofrecemos programas educativos diseñados específicamente para cada etapa del desarrollo de tu hijo</p>
+            </div>
+
+            <div class="programs-grid">
+                <div class="program-card">
+                    <div class="program-header" style="background-color: #FF8C00;">
+                        <div class="program-icon">❤️</div>
+                        <div class="program-age">1-2 años</div>
+                    </div>
+                    <div class="program-body">
+                        <h3>Maternal</h3>
+                        <p>Estimulación temprana y cuidado personalizado para los más pequeños</p>
+                        <h4>Incluye:</h4>
+                        <ul>
+                            <li><span class="check">✓</span> Estimulación sensorial</li>
+                            <li><span class="check">✓</span> Desarrollo motor</li>
+                            <li><span class="check">✓</span> Música y movimiento</li>
+                            <li><span class="check">✓</span> Alimentación balanceada</li>
+                        </ul>
+                        <button onclick="scrollToSection('contact')" class="btn btn-gradient">Más información</button>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header" style="background-color: #5D3E7B;">
+                        <div class="program-icon">📚</div>
+                        <div class="program-age">3-4 años</div>
+                    </div>
+                    <div class="program-body">
+                        <h3>Preescolar</h3>
+                        <p>Preparación integral para el desarrollo cognitivo y social</p>
+                        <h4>Incluye:</h4>
+                        <ul>
+                            <li><span class="check">✓</span> Pre-lectura y pre-escritura</li>
+                            <li><span class="check">✓</span> Matemáticas básicas</li>
+                            <li><span class="check">✓</span> Arte y creatividad</li>
+                            <li><span class="check">✓</span> Valores cristianos</li>
+                        </ul>
+                        <button onclick="scrollToSection('contact')" class="btn btn-gradient">Más información</button>
+                    </div>
+                </div>
+
+                <div class="program-card">
+                    <div class="program-header" style="background-color: #4CAF50;">
+                        <div class="program-icon">👥</div>
+                        <div class="program-age">5-6 años</div>
+                    </div>
+                    <div class="program-body">
+                        <h3>Kínder</h3>
+                        <p>Preparación para la escuela primaria con excelencia académica</p>
+                        <h4>Incluye:</h4>
+                        <ul>
+                            <li><span class="check">✓</span> Lectoescritura</li>
+                            <li><span class="check">✓</span> Matemáticas</li>
+                            <li><span class="check">✓</span> Inglés</li>
+                            <li><span class="check">✓</span> Computación básica</li>
+                        </ul>
+                        <button onclick="scrollToSection('contact')" class="btn btn-gradient">Más información</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="programs-features">
+                <div class="feature-box">
+                    <div class="feature-icon">🕐</div>
+                    <h4>Horarios Flexibles</h4>
+                    <p>7:00 AM - 6:00 PM</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">👥</div>
+                    <h4>Grupos Reducidos</h4>
+                    <p>Atención personalizada</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">📖</div>
+                    <h4>Material Incluido</h4>
+                    <p>Todo lo necesario</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon">🍎</div>
+                    <h4>Alimentación</h4>
+                    <p>Menú saludable</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-content">
+                    <h2>Sobre Nosotros</h2>
+                    <div class="about-text">
+                        <p>En <strong>Aleluyagarden</strong>, creemos que cada niño es un regalo de Dios y merece una educación que nutra su mente, corazón y espíritu.</p>
+                        <p>Desde hace más de 15 años, hemos sido pioneros en ofrecer educación preescolar de calidad fundamentada en valores cristianos, donde cada niño es valorado y amado.</p>
+                        <p>Nuestro equipo de educadores certificados y comprometidos trabaja día a día para crear un ambiente donde los niños pueden crecer, aprender y desarrollar todo su potencial en un entorno seguro y lleno de amor.</p>
+                    </div>
+                    <div class="bible-quote">
+                        <p class="quote-text">"Instruye al niño en su camino, y aun cuando fuere viejo no se apartará de él."</p>
+                        <p class="quote-source">— Proverbios 22:6</p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-value">15+</div>
+                        <div class="stat-label">Años de experiencia</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">⭐</div>
+                        <div class="stat-value">500+</div>
+                        <div class="stat-label">Niños graduados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🛡️</div>
+                        <div class="stat-value">100%</div>
+                        <div class="stat-label">Instalaciones seguras</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">🎯</div>
+                        <div class="stat-value">98%</div>
+                        <div class="stat-label">Satisfacción familiar</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mission-vision">
+                <div class="mission-card">
+                    <div class="mv-icon">🎯</div>
+                    <h3>Nuestra Misión</h3>
+                    <p>Brindar educación preescolar de excelencia basada en principios cristianos, fomentando el desarrollo integral de cada niño en un ambiente de amor, respeto y seguridad.</p>
+                </div>
+                <div class="vision-card">
+                    <div class="mv-icon">⭐</div>
+                    <h3>Nuestra Visión</h3>
+                    <p>Ser reconocidos como la institución educativa preescolar líder en formación integral cristiana, transformando vidas y preparando ciudadanos de bien para la sociedad.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Values Section -->
+    <section id="values" class="values">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nuestros Valores</h2>
+                <p>Los principios que guían nuestra labor educativa y forman el carácter de cada niño</p>
+            </div>
+
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(255, 140, 0, 0.2);">
+                        <span style="color: #FF8C00;">❤️</span>
+                    </div>
+                    <h3>Amor</h3>
+                    <p>Cultivamos un ambiente de amor incondicional donde cada niño se siente valorado y especial</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(93, 62, 123, 0.2);">
+                        <span style="color: #5D3E7B;">🛡️</span>
+                    </div>
+                    <h3>Integridad</h3>
+                    <p>Enseñamos honestidad y transparencia en todas las acciones y decisiones</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(76, 175, 80, 0.2);">
+                        <span style="color: #4CAF50;">👥</span>
+                    </div>
+                    <h3>Respeto</h3>
+                    <p>Fomentamos el respeto mutuo, la empatía y la valoración de las diferencias</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(255, 140, 0, 0.2);">
+                        <span style="color: #FF8C00;">📖</span>
+                    </div>
+                    <h3>Excelencia</h3>
+                    <p>Buscamos la excelencia académica y personal en cada actividad que realizamos</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(93, 62, 123, 0.2);">
+                        <span style="color: #5D3E7B;">✨</span>
+                    </div>
+                    <h3>Creatividad</h3>
+                    <p>Estimulamos la imaginación y la expresión creativa en todas sus formas</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon" style="background-color: rgba(76, 175, 80, 0.2);">
+                        <span style="color: #4CAF50;">☀️</span>
+                    </div>
+                    <h3>Alegría</h3>
+                    <p>Creamos un ambiente alegre y positivo donde aprender es divertido</p>
+                </div>
+            </div>
+
+            <div class="values-cta">
+                <h3>¿Quieres conocer más sobre nuestra metodología?</h3>
+                <p>Agenda una visita y descubre cómo podemos ser parte del desarrollo integral de tu hijo</p>
+                <button onclick="scrollToSection('contact')" class="btn btn-primary">Solicitar Información</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contáctanos</h2>
+                <p>Estamos aquí para responder todas tus preguntas y ayudarte a dar el primer paso</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Información de Contacto</h3>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background-color: #4CAF50;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Teléfono</h4>
+                                <p>(123) 456-7890</p>
+                                <p>(123) 456-7891</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background-color: #FF8C00;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                    <polyline points="22,6 12,13 2,6"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@aleluyagarden.com</p>
+                                <p>admisiones@aleluyagarden.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background-color: #5D3E7B;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                                    <circle cx="12" cy="10" r="3"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Dirección</h4>
+                                <p>Calle Principal #123</p>
+                                <p>Ciudad, Estado, CP 12345</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background-color: #4CAF50;">
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <circle cx="12" cy="12" r="10"/>
+                                    <polyline points="12 6 12 12 16 14"/>
+                                </svg>
+                            </div>
+                            <div>
+                                <h4>Horario de Atención</h4>
+                                <p>Lunes a Viernes: 7:00 AM - 6:00 PM</p>
+                                <p>Sábados: 9:00 AM - 1:00 PM</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="promo-box">
+                        <h4>¡Inscripciones Abiertas!</h4>
+                        <p>Aprovecha nuestros descuentos especiales por inscripción anticipada</p>
+                        <div class="promo-highlight">
+                            <p class="promo-title">Hasta 20% de descuento</p>
+                            <p class="promo-subtitle">En el primer mes de colegiatura</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <div class="contact-form-container">
+                        <h3>Envíanos un Mensaje</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo *</label>
+                                <input type="text" id="name" name="name" required placeholder="Tu nombre">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input type="email" id="email" name="email" required placeholder="tu@email.com">
+                            </div>
+                            <div class="form-group">
+                                <label for="phone">Teléfono *</label>
+                                <input type="tel" id="phone" name="phone" required placeholder="(123) 456-7890">
+                            </div>
+                            <div class="form-group">
+                                <label for="childAge">Edad del Niño *</label>
+                                <select id="childAge" name="childAge" required>
+                                    <option value="">Selecciona una opción</option>
+                                    <option value="1-2">1-2 años (Maternal)</option>
+                                    <option value="3-4">3-4 años (Preescolar)</option>
+                                    <option value="5-6">5-6 años (Kínder)</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Mensaje</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Cuéntanos cómo podemos ayudarte..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-submit">
+                                Enviar Mensaje
+                                <svg class="icon-send" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"/>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+                                </svg>
+                            </button>
+                        </form>
+                        <div id="formSuccess" class="form-success">
+                            <div class="success-icon">✓</div>
+                            <h4>¡Mensaje Enviado!</h4>
+                            <p>Nos pondremos en contacto contigo pronto.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Aleluyagarden</h3>
+                    <p>Educación preescolar con principios cristianos, formando niños felices y seguros para un futuro brillante.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><button onclick="scrollToSection('programs')">Programas</button></li>
+                        <li><button onclick="scrollToSection('about')">Nosotros</button></li>
+                        <li><button onclick="scrollToSection('values')">Valores</button></li>
+                        <li><button onclick="scrollToSection('contact')">Contacto</button></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li>📞 (123) 456-7890</li>
+                        <li>✉️ info@aleluyagarden.com</li>
+                        <li>📍 Calle Principal #123, Ciudad</li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Síguenos</h4>
+                    <div class="social-icons">
+                        <a href="#" class="social-icon" aria-label="Facebook">f</a>
+                        <a href="#" class="social-icon" aria-label="Instagram">📷</a>
+                    </div>
+                    <div class="footer-schedule">
+                        <p><strong>Horario</strong></p>
+                        <p>Lun - Vie: 7:00 AM - 6:00 PM</p>
+                        <p>Sáb: 9:00 AM - 1:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Aleluyagarden. Todos los derechos reservados.</p>
+                <p>Hecho con ❤️ para nuestros niños</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <a href="tel:1234567890" class="floating-contact" id="floatingContact">
+        <svg class="phone-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+        </svg>
+        <span class="phone-text">Llámanos ahora</span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
